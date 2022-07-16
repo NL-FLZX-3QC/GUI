@@ -7,6 +7,7 @@ public class test {
     public static void main(String args[]) {
         String str = "";
         String pattern = "^\\d+(\\.\\d+)?$";
+        System.out.println("hello--hot-fix");
 
         Pattern r = Pattern.compile(pattern);
         Matcher m = r.matcher(str);
