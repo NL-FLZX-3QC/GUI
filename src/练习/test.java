@@ -11,8 +11,7 @@ public class test {
         System.out.println("hello--master:test");
         System.out.println("hello--master:test2");
         System.out.println("hello--hot-fix:test");
-        System.out.println("push");
-        System.out.println("push");
+      
 
         Pattern r = Pattern.compile(pattern);
         Matcher m = r.matcher(str);
