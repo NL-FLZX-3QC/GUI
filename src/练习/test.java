@@ -9,6 +9,10 @@ public class test {
         String pattern = "^\\d+(\\.\\d+)?$";
         System.out.println("hello--hot-fix");
         System.out.println("hello--master:test");
+        System.out.println("hello--master:test2");
+        System.out.println("hello--hot-fix:test");
+        System.out.println("push");
+        System.out.println("push");
 
         Pattern r = Pattern.compile(pattern);
         Matcher m = r.matcher(str);
